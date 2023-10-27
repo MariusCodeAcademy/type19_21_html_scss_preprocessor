@@ -1,16 +1,16 @@
-%btn {
-  border: 1px solid tomato;
-  background-color: $primary;
-  padding: 0.8em 1.6em;
-  font-size: 17px;
-  cursor: pointer;
-}
-%btn:hover {
-  background-color: darken($color: tomato, $amount: 20);
-}
+// %btn {
+//   border: 1px solid tomato;
+//   background-color: $primary;
+//   padding: 0.8em 1.6em;
+//   font-size: 17px;
+//   cursor: pointer;
+// }
+// %btn:hover {
+//   background-color: darken($color: tomato, $amount: 20);
+// }
 
 .btn--primary {
-  // ikelti visas taisykles is %btn
+  // panaudoti mixin
   @extend %btn;
 }
 .btn--secondary {
