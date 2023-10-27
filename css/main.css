@@ -1,8 +1,30 @@
 body {
-  background-color: tomato;
+  background-color: rgba(255, 99, 71, 0.4);
 }
 body h1 {
   font-size: 50px;
   font-weight: normal;
-  color: #000;
+  color: tomato;
+}
+
+.btn--secondary, .btn--primary {
+  border: 1px solid tomato;
+  background-color: tomato;
+  padding: 0.8em 1.6em;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.btn--secondary:hover, .btn--primary:hover {
+  background-color: #e02200;
+}
+
+.btn--secondary {
+  border-color: darkgreen;
+  background-color: darkgreen;
+  color: white;
+}
+
+.btn--secondary:hover {
+  background-color: #003100;
 }/*# sourceMappingURL=main.css.map */
