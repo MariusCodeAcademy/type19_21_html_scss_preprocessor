@@ -1,24 +1,12 @@
-// %btn {
-//   border: 1px solid tomato;
-//   background-color: $primary;
-//   padding: 0.8em 1.6em;
-//   font-size: 17px;
-//   cursor: pointer;
-// }
-// %btn:hover {
-//   background-color: darken($color: tomato, $amount: 20);
-// }
-
 .btn--primary {
   // panaudoti mixin
-  @extend %btn;
+  @include btn;
 }
 .btn--secondary {
-  @extend %btn;
-  border-color: darkgreen;
-  background-color: darkgreen;
+  @include btn($color: darkgreen);
   color: white;
 }
-.btn--secondary:hover {
-  background-color: darken($color: darkgreen, $amount: 10);
+.btn--secondary1 {
+  @include btn($color: indigo, $radius: 10px);
+  color: white;
 }
