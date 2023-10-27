@@ -63,19 +63,33 @@ body h1 {
 }
 
 .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   max-width: 250px;
 }
-.card .card__img {
+.card:hover {
+  -webkit-box-shadow: 5px 5px 15px gray;
+          box-shadow: 5px 5px 15px gray;
+}
+.card__img {
   display: block;
 }
-.card .card__body {
+.card__body {
   background-color: white;
   padding: 1rem 1.5rem;
 }
-.card .card__title {
+.card__title {
   font-weight: 600;
 }
-.card .card__text {
+.card__text {
   color: #333;
   line-height: 1.5;
+}
+.card__text span {
+  font-weight: bold;
 }/*# sourceMappingURL=main.css.map */

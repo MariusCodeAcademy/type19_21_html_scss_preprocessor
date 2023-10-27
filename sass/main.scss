@@ -41,19 +41,31 @@ body {
 
 // CARD
 .card {
+  display: flex;
+  flex-direction: column;
+  &:hover {
+    box-shadow: 5px 5px 15px gray;
+  }
   max-width: 250px;
-  .card__img {
+
+  &__img {
     display: block;
   }
-  .card__body {
+  &__body {
     background-color: white;
     padding: 1rem 1.5rem;
   }
-  .card__title {
+  &__title {
     font-weight: 600;
   }
-  .card__text {
+  &__text {
     color: #333;
     line-height: 1.5;
+    span {
+      font-weight: bold;
+    }
   }
 }
+// .card:hover {
+//   box-shadow: 5px 5px 15px gray;
+// }
