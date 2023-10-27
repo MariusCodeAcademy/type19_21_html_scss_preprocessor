@@ -31,15 +31,6 @@ img {
   padding-right: 15px;
 }
 
-body {
-  background-color: rgba(255, 99, 71, 0.4);
-}
-body h1 {
-  font-size: 50px;
-  font-weight: normal;
-  color: tomato;
-}
-
 .btn--secondary, .btn--primary {
   border: 1px solid tomato;
   background-color: tomato;
@@ -92,4 +83,13 @@ body h1 {
 }
 .card__text span {
   font-weight: bold;
+}
+
+body {
+  background-color: rgba(255, 99, 71, 0.4);
+}
+body h1 {
+  font-size: 50px;
+  font-weight: normal;
+  color: tomato;
 }/*# sourceMappingURL=main.css.map */
