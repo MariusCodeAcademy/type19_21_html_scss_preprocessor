@@ -1,5 +1,5 @@
 // Itraukiam reset faila
-// @import 'reset';
+@import 'reset';
 
 // sass kintamieji
 $primary: tomato;
@@ -37,4 +37,23 @@ body {
 }
 .btn--secondary:hover {
   background-color: darken($color: darkgreen, $amount: 10);
+}
+
+// CARD
+.card {
+  max-width: 250px;
+  .card__img {
+    display: block;
+  }
+  .card__body {
+    background-color: white;
+    padding: 1rem 1.5rem;
+  }
+  .card__title {
+    font-weight: 600;
+  }
+  .card__text {
+    color: #333;
+    line-height: 1.5;
+  }
 }
